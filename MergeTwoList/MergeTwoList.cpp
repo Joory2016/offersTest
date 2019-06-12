@@ -60,6 +60,28 @@ public:
 		return res;
 	}
 
+	//using the recursion method
+	ListNode* MergeListRe(ListNode* pHead1, ListNode* pHead2) {
+		if (pHead1 == nullptr && pHead2 == nullptr)
+			return nullptr;
+		if (pHead1 == nullptr && pHead2 != nullptr)
+			return pHead2;
+		if (pHead1 != nullptr&& pHead2 == nullptr)
+			return pHead1;
+		ListNode* res=nullptr;
+		if (pHead1->val <= pHead2->val) {
+			res = pHead1;
+			res->next = MergeListRe(pHead1->next, pHead2);
+		}
+		else {
+			res = pHead2;
+			res->next = MergeListRe(pHead1, pHead2->next);
+		}
+		return res;
+	}
+
+
+
 	void myPrint(ListNode* res) {
 		ListNode* temp = res;
 		while (temp != nullptr)
@@ -96,8 +118,8 @@ int main()
 	addNode(&l2, 4);
 	addNode(&l2, 6);
 	addNode(&l2, 8);
-	ListNode* res=s.Merge(l1, l2);
-
+//	ListNode* res=s.Merge(l1, l2);
+	ListNode*res = s.MergeListRe(l1, l2);
 	s.myPrint(res);
 
 
