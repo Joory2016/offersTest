@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 15 for Windows Desktop
+# Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "offersTest", "offersTest\offersTest.vcxproj", "{C3F65587-68C2-4111-BBFA-E34A0B83AFB4}"
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrintNumInRect", "PrintNumInRect\PrintNumInRect.vcxproj", "{77FAE35A-37DB-4C61-ABF8-4A835C440443}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testNew", "testNew\testNew.vcxproj", "{D2A953B1-E395-4F15-BC72-C47E01A6E1A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "implementStackUsingQueue", "implementStackUsingQueue\implementStackUsingQueue.vcxproj", "{F95F0B54-B72B-43E5-B31C-841FB66C30C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{D2A953B1-E395-4F15-BC72-C47E01A6E1A8}.Release|x64.Build.0 = Release|x64
 		{D2A953B1-E395-4F15-BC72-C47E01A6E1A8}.Release|x86.ActiveCfg = Release|Win32
 		{D2A953B1-E395-4F15-BC72-C47E01A6E1A8}.Release|x86.Build.0 = Release|Win32
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Debug|x64.ActiveCfg = Debug|x64
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Debug|x64.Build.0 = Debug|x64
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Debug|x86.Build.0 = Debug|Win32
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Release|x64.ActiveCfg = Release|x64
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Release|x64.Build.0 = Release|x64
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Release|x86.ActiveCfg = Release|Win32
+		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
