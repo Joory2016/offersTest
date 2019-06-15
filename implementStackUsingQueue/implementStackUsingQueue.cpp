@@ -71,7 +71,7 @@ int main()
 	s.push(3);
 	int temp = s.top();
 
-
+	cout << temp << endl;
     std::cout << "Hello World!\n"; 
 	return 0;
 }
