@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testNew", "testNew\testNew.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "implementStackUsingQueue", "implementStackUsingQueue\implementStackUsingQueue.vcxproj", "{F95F0B54-B72B-43E5-B31C-841FB66C30C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindkthMaxValueByHeap", "FindkthMaxValueByHeap\FindkthMaxValueByHeap.vcxproj", "{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Release|x64.Build.0 = Release|x64
 		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Release|x86.ActiveCfg = Release|Win32
 		{F95F0B54-B72B-43E5-B31C-841FB66C30C3}.Release|x86.Build.0 = Release|Win32
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Debug|x64.ActiveCfg = Debug|x64
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Debug|x64.Build.0 = Debug|x64
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Debug|x86.Build.0 = Debug|Win32
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Release|x64.ActiveCfg = Release|x64
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Release|x64.Build.0 = Release|x64
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Release|x86.ActiveCfg = Release|Win32
+		{9B585EFC-EFDD-43DE-9389-FD36143CA5FC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
